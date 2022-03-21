@@ -50,7 +50,7 @@ class BookInstance(models.Model):
         """
         String for representing the Model object
         """
-        return '%s (%s)' % (self.id,self.book.title)
+        return '%s (%s)' % (self.id, self.book.title)
 
 
 class Author(models.Model):
